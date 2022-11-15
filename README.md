@@ -21,3 +21,7 @@ dev...
 - 每个都是 **一个单独的进程**。
 - 全面支持 **Node.js** 和 **DOM API**。
 - 可以使用 一部分 **Electron 提供的 API**。
+
+## 进程之间的通讯方式
+
+- Electron 使用 IPC（interprocess communication）在进程之间进行通讯。
